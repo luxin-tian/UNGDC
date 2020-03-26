@@ -1,0 +1,513 @@
+% \begin{table}
+% \centering
+%  	\caption{Top 5 topics discussed over years (for all countries)}
+%     \label{tab:top 5 topics all}
+%     \resizebox{0.5\textwidth}{!}{
+% \begin{tabular}{llllll}
+	
+% 	\toprule
+% 	Country &     Top 1 &     Top 2 &     Top 3 &     Top 4 &     Top 5 \\
+% 	\midrule
+%     AFG &   topic\_4 &   topic\_8 &   topic\_1 &  topic\_18 &   topic\_3 \\
+%     AGO &   topic\_1 &  topic\_17 &  topic\_23 &   topic\_3 &   topic\_9 \\
+%     ALB &  topic\_27 &   topic\_1 &   topic\_9 &  topic\_18 &   topic\_8 \\
+%     AND &   topic\_6 &  topic\_12 &   topic\_2 &   topic\_8 &   topic\_1 \\
+%     ARE &  topic\_10 &   topic\_4 &  topic\_15 &   topic\_1 &   topic\_5 \\
+%     ARG &  topic\_11 &   topic\_1 &  topic\_20 &  topic\_14 &   topic\_6 \\
+%     ARM &   topic\_2 &   topic\_8 &   topic\_1 &  topic\_23 &   topic\_3 \\
+%     ATG &   topic\_7 &   topic\_1 &   topic\_6 &   topic\_8 &  topic\_12 \\
+%     AUS &   topic\_3 &   topic\_1 &   topic\_2 &  topic\_16 &   topic\_4 \\
+%     AUT &   topic\_2 &  topic\_13 &   topic\_3 &  topic\_18 &  topic\_22 \\
+%     AZE &   topic\_2 &  topic\_13 &  topic\_10 &  topic\_18 &  topic\_15 \\
+%     BDI &   topic\_1 &  topic\_17 &   topic\_6 &   topic\_3 &  topic\_14 \\
+%     BEL &   topic\_3 &   topic\_1 &  topic\_18 &   topic\_2 &   topic\_6 \\
+%     BEN &   topic\_1 &   topic\_6 &   topic\_3 &  topic\_14 &   topic\_5 \\
+%     BFA &   topic\_1 &   topic\_6 &   topic\_5 &  topic\_17 &   topic\_3 \\
+%     BGD &   topic\_4 &   topic\_3 &   topic\_5 &  topic\_24 &   topic\_7 \\
+%     BGR &   topic\_3 &  topic\_26 &   topic\_2 &  topic\_18 &  topic\_13 \\
+%     BHR &  topic\_10 &  topic\_15 &   topic\_4 &   topic\_1 &  topic\_12 \\
+%     BHS &   topic\_7 &   topic\_1 &   topic\_4 &   topic\_2 &   topic\_3 \\
+%     BIH &   topic\_2 &   topic\_8 &   topic\_3 &   topic\_1 &  topic\_18 \\
+%     BLR &   topic\_1 &  topic\_13 &   topic\_3 &   topic\_9 &  topic\_18 \\
+%     BLZ &   topic\_7 &  topic\_16 &   topic\_1 &   topic\_6 &   topic\_4 \\
+%     BOL &   topic\_6 &  topic\_14 &  topic\_25 &  topic\_11 &   topic\_1 \\
+%     BRA &  topic\_11 &   topic\_1 &   topic\_6 &   topic\_3 &   topic\_5 \\
+%     BRB &   topic\_7 &   topic\_4 &   topic\_1 &  topic\_12 &  topic\_16 \\
+%     BRN &  topic\_12 &   topic\_5 &   topic\_1 &   topic\_4 &  topic\_13 \\
+%     BTN &  topic\_19 &   topic\_5 &   topic\_7 &   topic\_1 &   topic\_4 \\
+%     BWA &   topic\_1 &   topic\_5 &   topic\_4 &   topic\_7 &  topic\_12 \\
+%     CAF &   topic\_1 &  topic\_14 &   topic\_3 &  topic\_17 &  topic\_18 \\
+%     CAN &  topic\_19 &   topic\_2 &  topic\_12 &   topic\_1 &   topic\_3 \\
+%     CHE &   topic\_2 &   topic\_6 &  topic\_12 &   topic\_3 &  topic\_28 \\
+%     CHL &  topic\_11 &   topic\_1 &   topic\_6 &   topic\_3 &  topic\_14 \\
+%     CHN &  topic\_21 &   topic\_1 &  topic\_13 &   topic\_9 &  topic\_10 \\
+%     CIV &   topic\_1 &   topic\_3 &  topic\_14 &   topic\_6 &  topic\_17 \\
+%     CMR &   topic\_1 &  topic\_14 &   topic\_3 &  topic\_19 &   topic\_4 \\
+%     COD &   topic\_1 &  topic\_17 &   topic\_6 &  topic\_14 &  topic\_10 \\
+%     COG &   topic\_1 &  topic\_17 &   topic\_6 &  topic\_14 &   topic\_3 \\
+%     COL &   topic\_6 &  topic\_11 &   topic\_1 &  topic\_25 &  topic\_14 \\
+%     COM &  topic\_14 &   topic\_1 &  topic\_10 &   topic\_4 &  topic\_24 \\
+%     CPV &   topic\_1 &  topic\_14 &   topic\_6 &   topic\_5 &   topic\_3 \\
+%     CRI &  topic\_11 &   topic\_6 &   topic\_1 &  topic\_12 &  topic\_14 \\
+%     CUB &   topic\_1 &  topic\_20 &   topic\_6 &   topic\_8 &  topic\_21 \\
+%     CYP &   topic\_1 &  topic\_23 &   topic\_4 &   topic\_2 &  topic\_13 \\
+%     CZE &   topic\_2 &  topic\_18 &   topic\_3 &  topic\_12 &  topic\_13 \\
+%     DEU &   topic\_3 &  topic\_18 &  topic\_13 &   topic\_1 &   topic\_2 \\
+%     DJI &   topic\_1 &   topic\_4 &  topic\_17 &  topic\_15 &   topic\_7 \\
+%     DMA &   topic\_7 &  topic\_16 &  topic\_12 &   topic\_4 &   topic\_1 \\
+%     DNK &   topic\_2 &   topic\_3 &  topic\_18 &   topic\_1 &   topic\_4 \\
+%     DOM &  topic\_14 &   topic\_1 &   topic\_6 &  topic\_11 &   topic\_7 \\
+%     DZA &   topic\_1 &  topic\_27 &  topic\_10 &   topic\_5 &   topic\_4 \\
+%     ECU &  topic\_11 &   topic\_6 &   topic\_1 &  topic\_14 &  topic\_12 \\
+%     EGY &  topic\_15 &   topic\_1 &  topic\_10 &   topic\_4 &  topic\_25 \\
+%     ERI &   topic\_1 &   topic\_8 &  topic\_17 &  topic\_28 &   topic\_7 \\
+%     ESP &   topic\_1 &  topic\_14 &   topic\_3 &  topic\_11 &  topic\_22 \\
+%     EST &   topic\_2 &  topic\_18 &  topic\_12 &   topic\_3 &   topic\_8 \\
+%     ETH &   topic\_1 &  topic\_28 &  topic\_17 &   topic\_5 &   topic\_4 \\
+%      EU &   topic\_2 &   topic\_8 &   topic\_6 &  topic\_15 &  topic\_18 \\
+%     FIN &   topic\_2 &   topic\_3 &   topic\_1 &  topic\_19 &  topic\_18 \\
+%     FJI &  topic\_12 &  topic\_16 &   topic\_1 &  topic\_22 &   topic\_7 \\
+%     FRA &   topic\_1 &   topic\_3 &   topic\_6 &  topic\_13 &  topic\_14 \\
+%     FSM &  topic\_16 &  topic\_12 &  topic\_22 &   topic\_7 &   topic\_3 \\
+%     GAB &   topic\_1 &  topic\_14 &   topic\_3 &  topic\_17 &   topic\_5 \\
+%     GBR &   topic\_1 &   topic\_8 &  topic\_12 &   topic\_4 &   topic\_2 \\
+%     GEO &   topic\_2 &   topic\_8 &  topic\_18 &   topic\_6 &  topic\_13 \\
+%     GHA &   topic\_1 &   topic\_4 &   topic\_7 &   topic\_5 &  topic\_12 \\
+% \bottomrule
+% \end{tabular}
+% }
+% \end{table}
+
+% \begin{table}
+% \centering
+%  	\caption{Top 5 topics discussed over years (for all countries) (continued)}
+%     % \label{tab:top 5 topics all}
+%     \resizebox{\textheight}{!}{
+% \begin{tabular}{llllll}
+	
+% 	\toprule
+% 	Country &     Top 1 &     Top 2 &     Top 3 &     Top 4 &     Top 5 \\
+% 	\midrule
+%  	GIN &   topic\_1 &  topic\_14 &  topic\_17 &   topic\_3 &   topic\_5 \\
+%     GMB &   topic\_4 &   topic\_7 &   topic\_1 &   topic\_5 &  topic\_12 \\
+%     GNB &  topic\_14 &   topic\_1 &   topic\_3 &   topic\_5 &  topic\_17 \\
+%     GNQ &  topic\_14 &   topic\_1 &   topic\_3 &   topic\_6 &  topic\_28 \\
+%     GRC &  topic\_23 &   topic\_1 &   topic\_3 &   topic\_2 &   topic\_4 \\
+%     GRD &   topic\_7 &   topic\_1 &   topic\_6 &   topic\_4 &   topic\_8 \\
+%     GTM &  topic\_11 &  topic\_14 &   topic\_6 &   topic\_3 &   topic\_1 \\
+%     GUY &   topic\_1 &   topic\_7 &   topic\_4 &   topic\_3 &  topic\_16 \\
+%     HND &  topic\_18 &   topic\_6 &  topic\_14 &  topic\_11 &   topic\_1 \\
+%     HRV &   topic\_2 &   topic\_1 &  topic\_18 &   topic\_3 &  topic\_13 \\
+%     HTI &   topic\_1 &   topic\_6 &   topic\_7 &  topic\_14 &   topic\_4 \\
+%     HUN &   topic\_3 &   topic\_1 &  topic\_18 &  topic\_13 &   topic\_2 \\
+%     IDN &   topic\_4 &   topic\_5 &   topic\_1 &   topic\_3 &  topic\_24 \\
+%     IND &   topic\_1 &   topic\_4 &   topic\_8 &   topic\_5 &   topic\_3 \\
+%     IRL &  topic\_22 &   topic\_1 &   topic\_2 &   topic\_4 &   topic\_8 \\
+%     IRN &  topic\_10 &   topic\_8 &   topic\_1 &   topic\_4 &  topic\_18 \\
+%     IRQ &  topic\_10 &   topic\_1 &   topic\_8 &  topic\_15 &  topic\_28 \\
+%     ISL &  topic\_24 &   topic\_2 &   topic\_1 &  topic\_12 &  topic\_16 \\
+%     ISR &   topic\_8 &  topic\_15 &   topic\_1 &  topic\_10 &  topic\_18 \\
+%     ITA &  topic\_22 &   topic\_3 &   topic\_1 &   topic\_2 &  topic\_18 \\
+%     JAM &   topic\_7 &   topic\_1 &   topic\_3 &   topic\_4 &  topic\_16 \\
+%     JOR &  topic\_15 &   topic\_1 &   topic\_4 &  topic\_10 &   topic\_8 \\
+%     JPN &  topic\_12 &  topic\_13 &   topic\_3 &   topic\_1 &  topic\_26 \\
+%     KAZ &   topic\_2 &  topic\_13 &   topic\_3 &  topic\_18 &  topic\_12 \\
+%     KEN &   topic\_1 &  topic\_17 &   topic\_4 &   topic\_7 &   topic\_3 \\
+%     KGZ &   topic\_2 &   topic\_3 &  topic\_13 &   topic\_5 &   topic\_6 \\
+%     KHM &  topic\_13 &  topic\_21 &   topic\_1 &   topic\_8 &  topic\_24 \\
+%     KIR &  topic\_16 &  topic\_12 &   topic\_7 &   topic\_5 &   topic\_6 \\
+%     KNA &   topic\_7 &  topic\_12 &   topic\_4 &   topic\_6 &   topic\_5 \\
+%     KOR &   topic\_5 &  topic\_26 &   topic\_2 &  topic\_12 &  topic\_13 \\
+%     KWT &  topic\_10 &   topic\_4 &   topic\_1 &  topic\_15 &   topic\_8 \\
+%     LAO &  topic\_21 &   topic\_1 &   topic\_9 &   topic\_5 &   topic\_3 \\
+%     LBN &   topic\_4 &  topic\_15 &   topic\_8 &   topic\_1 &  topic\_10 \\
+%     LBR &   topic\_1 &   topic\_5 &   topic\_3 &  topic\_12 &   topic\_7 \\
+%     LBY &   topic\_1 &  topic\_25 &  topic\_10 &  topic\_15 &   topic\_8 \\
+%     LCA &   topic\_7 &   topic\_1 &  topic\_12 &   topic\_8 &   topic\_4 \\
+%     LIE &   topic\_2 &   topic\_1 &  topic\_12 &  topic\_18 &   topic\_3 \\
+%     LKA &   topic\_4 &   topic\_1 &   topic\_8 &   topic\_3 &   topic\_7 \\
+%     LSO &   topic\_1 &   topic\_4 &   topic\_5 &   topic\_7 &  topic\_19 \\
+%     LTU &   topic\_2 &  topic\_18 &   topic\_3 &  topic\_12 &   topic\_8 \\
+%     LUX &   topic\_3 &   topic\_1 &   topic\_2 &  topic\_18 &  topic\_15 \\
+%     LVA &   topic\_2 &  topic\_18 &   topic\_3 &  topic\_12 &   topic\_5 \\
+%     MAR &  topic\_27 &   topic\_1 &  topic\_10 &   topic\_4 &  topic\_15 \\
+%     MCO &   topic\_2 &   topic\_6 &   topic\_3 &   topic\_7 &  topic\_12 \\
+%     MDA &   topic\_2 &   topic\_3 &  topic\_18 &  topic\_13 &   topic\_5 \\
+%     MDG &   topic\_1 &   topic\_3 &   topic\_6 &  topic\_24 &   topic\_4 \\
+%     MDV &   topic\_7 &   topic\_4 &   topic\_1 &  topic\_24 &   topic\_5 \\
+%     MEX &  topic\_11 &   topic\_6 &   topic\_1 &   topic\_3 &   topic\_2 \\
+%     MHL &  topic\_16 &  topic\_12 &  topic\_22 &   topic\_7 &   topic\_2 \\
+%     MKD &   topic\_2 &  topic\_23 &   topic\_3 &   topic\_1 &   topic\_6 \\
+%     MLI &   topic\_1 &  topic\_17 &   topic\_3 &   topic\_6 &   topic\_4 \\
+%     MLT &  topic\_28 &   topic\_1 &   topic\_2 &   topic\_3 &  topic\_12 \\
+%     MMR &   topic\_3 &   topic\_4 &   topic\_1 &   topic\_5 &  topic\_13 \\
+%     MNE &   topic\_2 &   topic\_5 &   topic\_3 &  topic\_28 &  topic\_28 \\
+%     MNG &  topic\_13 &   topic\_3 &   topic\_5 &   topic\_2 &   topic\_9 \\
+%     MOZ &   topic\_1 &   topic\_5 &   topic\_9 &  topic\_17 &   topic\_3 \\
+%     MRT &   topic\_1 &  topic\_25 &  topic\_10 &  topic\_17 &   topic\_4 \\
+%     MUS &  topic\_24 &   topic\_1 &   topic\_5 &   topic\_7 &   topic\_4 \\
+%     MWI &  topic\_19 &   topic\_5 &   topic\_7 &  topic\_12 &   topic\_3 \\
+%     MYS &   topic\_4 &   topic\_8 &   topic\_1 &  topic\_12 &   topic\_5 \\
+%     NAM &   topic\_5 &   topic\_1 &   topic\_7 &   topic\_4 &  topic\_17 \\
+%     NER &   topic\_1 &  topic\_17 &   topic\_3 &  topic\_14 &   topic\_6 \\
+%     NGA &   topic\_1 &   topic\_5 &   topic\_4 &   topic\_3 &   topic\_7 \\
+%     NIC &  topic\_20 &   topic\_6 &   topic\_1 &  topic\_11 &  topic\_14 \\
+%     NLD &   topic\_2 &   topic\_1 &   topic\_3 &  topic\_19 &  topic\_18 \\
+% \bottomrule
+% \end{tabular}
+% }
+% \end{table}
+
+% \begin{table}
+% \centering
+%  	\caption{Top 5 topics discussed over years (for all countries) (continued)}
+%     % \label{tab:top 5 topics all}
+%     \resizebox{\textheight}{!}{
+% \begin{tabular}{llllll}
+	
+% 	\toprule
+% 	Country &     Top 1 &     Top 2 &     Top 3 &     Top 4 &     Top 5 \\
+% 	\midrule
+%     NOR &   topic\_2 &   topic\_3 &   topic\_1 &   topic\_4 &  topic\_19 \\
+%     NPL &   topic\_5 &   topic\_4 &   topic\_1 &  topic\_19 &  topic\_13 \\
+%     NRU &  topic\_16 &  topic\_12 &   topic\_7 &   topic\_2 &  topic\_28 \\
+%     NZL &  topic\_16 &   topic\_1 &  topic\_12 &  topic\_13 &   topic\_3 \\
+%     OMN &  topic\_10 &   topic\_4 &  topic\_15 &   topic\_1 &  topic\_24 \\
+%     PAK &   topic\_8 &   topic\_4 &   topic\_1 &  topic\_13 &   topic\_3 \\
+%     PAN &  topic\_11 &   topic\_6 &   topic\_1 &  topic\_20 &   topic\_2 \\
+%     PER &   topic\_6 &  topic\_11 &   topic\_3 &   topic\_1 &  topic\_14 \\
+%     PHL &  topic\_24 &   topic\_1 &  topic\_12 &   topic\_5 &   topic\_6 \\
+%     PLW &  topic\_12 &  topic\_16 &   topic\_7 &  topic\_28 &  topic\_28 \\
+%     PNG &  topic\_16 &  topic\_12 &   topic\_1 &   topic\_3 &  topic\_14 \\
+%     POL &  topic\_11 &   topic\_3 &  topic\_13 &   topic\_1 &   topic\_2 \\
+%     PRK &  topic\_26 &  topic\_13 &   topic\_1 &  topic\_12 &  topic\_21 \\
+%     PRT &   topic\_1 &  topic\_23 &   topic\_3 &   topic\_2 &  topic\_14 \\
+%     PRY &  topic\_14 &   topic\_1 &   topic\_6 &  topic\_11 &  topic\_19 \\
+%     PSE &  topic\_15 &   topic\_8 &  topic\_12 &  topic\_28 &  topic\_28 \\
+%     QAT &  topic\_10 &  topic\_15 &   topic\_1 &   topic\_4 &  topic\_12 \\
+%     ROU &   topic\_9 &   topic\_3 &   topic\_2 &  topic\_13 &   topic\_1 \\
+%     RUS &  topic\_18 &  topic\_13 &   topic\_1 &   topic\_3 &  topic\_26 \\
+%     RWA &   topic\_1 &  topic\_17 &   topic\_6 &  topic\_14 &   topic\_3 \\
+%     SAU &  topic\_10 &   topic\_4 &  topic\_15 &   topic\_1 &   topic\_8 \\
+%     SDN &  topic\_25 &   topic\_1 &   topic\_4 &  topic\_15 &  topic\_10 \\
+%     SEN &   topic\_1 &   topic\_6 &  topic\_14 &   topic\_3 &  topic\_17 \\
+%     SGP &   topic\_1 &  topic\_12 &  topic\_21 &   topic\_8 &   topic\_7 \\
+%     SLB &  topic\_22 &  topic\_16 &  topic\_12 &   topic\_7 &   topic\_5 \\
+%     SLE &   topic\_1 &   topic\_5 &  topic\_16 &   topic\_4 &   topic\_7 \\
+%     SLV &   topic\_6 &   topic\_1 &  topic\_11 &  topic\_14 &   topic\_3 \\
+%     SMR &   topic\_2 &   topic\_6 &   topic\_3 &   topic\_5 &  topic\_12 \\
+%     SOM &   topic\_1 &  topic\_17 &   topic\_8 &  topic\_15 &  topic\_12 \\
+%     SRB &   topic\_2 &   topic\_6 &  topic\_27 &   topic\_8 &  topic\_12 \\
+%     SSD &  topic\_25 &  topic\_17 &  topic\_12 &   topic\_5 &   topic\_2 \\
+%     STP &   topic\_1 &  topic\_14 &   topic\_6 &   topic\_5 &  topic\_12 \\
+%     SUR &  topic\_11 &   topic\_7 &   topic\_3 &   topic\_1 &   topic\_4 \\
+%     SVK &   topic\_2 &   topic\_3 &  topic\_18 &  topic\_13 &  topic\_12 \\
+%     SVN &   topic\_2 &   topic\_3 &   topic\_1 &  topic\_12 &  topic\_18 \\
+%     SWE &   topic\_2 &   topic\_3 &   topic\_1 &  topic\_18 &  topic\_19 \\
+%     SWZ &   topic\_5 &  topic\_12 &   topic\_1 &   topic\_4 &  topic\_19 \\
+%     SYC &   topic\_1 &  topic\_16 &  topic\_24 &   topic\_6 &   topic\_7 \\
+%     SYR &  topic\_15 &   topic\_1 &  topic\_10 &   topic\_8 &   topic\_4 \\
+%     TCD &  topic\_14 &   topic\_1 &  topic\_17 &  topic\_25 &  topic\_10 \\
+%     TGO &   topic\_1 &   topic\_3 &  topic\_14 &  topic\_17 &   topic\_6 \\
+%     THA &   topic\_7 &   topic\_4 &  topic\_21 &   topic\_1 &   topic\_5 \\
+%     TJK &   topic\_3 &   topic\_2 &  topic\_13 &   topic\_4 &   topic\_5 \\
+%     TKM &  topic\_13 &   topic\_2 &   topic\_3 &  topic\_28 &  topic\_28 \\
+%     TLS &  topic\_23 &   topic\_6 &  topic\_12 &   topic\_5 &   topic\_8 \\
+%     TON &  topic\_16 &  topic\_22 &  topic\_12 &   topic\_5 &   topic\_7 \\
+%     TTO &   topic\_7 &   topic\_1 &   topic\_4 &   topic\_3 &   topic\_5 \\
+%     TUN &   topic\_1 &  topic\_10 &  topic\_15 &   topic\_3 &   topic\_5 \\
+%     TUR &  topic\_23 &   topic\_4 &   topic\_1 &  topic\_15 &   topic\_2 \\
+%     TUV &  topic\_16 &  topic\_12 &   topic\_5 &   topic\_7 &  topic\_28 \\
+%     TZA &   topic\_1 &  topic\_17 &   topic\_5 &   topic\_4 &   topic\_7 \\
+%     UGA &   topic\_1 &  topic\_12 &  topic\_17 &   topic\_4 &   topic\_5 \\
+%     UKR &  topic\_18 &  topic\_13 &   topic\_3 &   topic\_9 &   topic\_1 \\
+%     URY &   topic\_1 &  topic\_11 &   topic\_6 &   topic\_3 &  topic\_14 \\
+%     USA &   topic\_8 &  topic\_12 &   topic\_1 &  topic\_18 &   topic\_6 \\
+%     UZB &   topic\_2 &   topic\_3 &  topic\_13 &   topic\_4 &   topic\_8 \\
+%     VAT &   topic\_6 &   topic\_2 &  topic\_12 &   topic\_1 &   topic\_8 \\
+%     VCT &   topic\_7 &   topic\_1 &   topic\_8 &   topic\_4 &   topic\_6 \\
+%     VEN &   topic\_6 &   topic\_1 &  topic\_20 &  topic\_11 &   topic\_8 \\
+%     VNM &  topic\_21 &   topic\_1 &   topic\_5 &  topic\_13 &   topic\_3 \\
+%     VUT &  topic\_16 &   topic\_1 &  topic\_12 &   topic\_8 &   topic\_7 \\
+%     WSM &  topic\_16 &   topic\_1 &  topic\_12 &   topic\_4 &   topic\_7 \\
+%     YEM &  topic\_15 &  topic\_10 &   topic\_1 &   topic\_4 &   topic\_9 \\
+%     ZAF &   topic\_1 &   topic\_5 &  topic\_12 &   topic\_6 &   topic\_3 \\
+%     ZMB &   topic\_1 &   topic\_5 &   topic\_4 &   topic\_9 &   topic\_7 \\
+%     ZWE &   topic\_1 &   topic\_5 &   topic\_4 &   topic\_7 &   topic\_8 \\
+% \bottomrule
+% \end{tabular}
+% }
+% \end{table}
+ 
+
+\begin{table}
+    \centering
+    \caption{Top 5 topics discussed over years}
+    \label{tab:top 5 topics all1}
+    \begin{tabular}{lrrrrr}
+    \toprule
+    Country &     Top 1 &     Top 2 &     Top 3 &     Top 4 &     Top 5 \\
+    \midrule
+    AFG  & 4 & 8 & 1 & 18 & 3\\
+    AGO  & 1 & 17 & 23 & 3 & 9\\
+    ALB  & 27 & 1 & 9 & 18 & 8\\
+    AND  & 6 & 12 & 2 & 8 & 1\\
+    ARE  & 10 & 4 & 15 & 1 & 5\\
+    ARG  & 11 & 1 & 20 & 14 & 6\\
+    ARM  & 2 & 8 & 1 & 23 & 3\\
+    ATG  & 7 & 1 & 6 & 8 & 12\\
+    AUS  & 3 & 1 & 2 & 16 & 4\\
+    AUT  & 2 & 13 & 3 & 18 & 22\\
+    AZE  & 2 & 13 & 10 & 18 & 15\\
+    BDI  & 1 & 17 & 6 & 3 & 14\\
+    BEL  & 3 & 1 & 18 & 2 & 6\\
+    BEN  & 1 & 6 & 3 & 14 & 5\\
+    BFA  & 1 & 6 & 5 & 17 & 3\\
+    BGD  & 4 & 3 & 5 & 24 & 7\\
+    BGR  & 3 & 26 & 2 & 18 & 13\\
+    BHR  & 10 & 15 & 4 & 1 & 12\\
+    BHS  & 7 & 1 & 4 & 2 & 3\\
+    BIH  & 2 & 8 & 3 & 1 & 18\\
+    BLR  & 1 & 13 & 3 & 9 & 18\\
+    BLZ  & 7 & 16 & 1 & 6 & 4\\
+    BOL  & 6 & 14 & 25 & 11 & 1\\
+    BRA  & 11 & 1 & 6 & 3 & 5\\
+    BRB  & 7 & 4 & 1 & 12 & 16\\
+    BRN  & 12 & 5 & 1 & 4 & 13\\
+    BTN  & 19 & 5 & 7 & 1 & 4\\
+    BWA  & 1 & 5 & 4 & 7 & 12\\
+    CAF  & 1 & 14 & 3 & 17 & 18\\
+    CAN  & 19 & 2 & 12 & 1 & 3\\
+    CHE  & 2 & 6 & 12 & 3 & 28\\
+    CHL  & 11 & 1 & 6 & 3 & 14\\
+    CHN  & 21 & 1 & 13 & 9 & 10\\
+    CIV  & 1 & 3 & 14 & 6 & 17\\
+    CMR  & 1 & 14 & 3 & 19 & 4\\
+    COD  & 1 & 17 & 6 & 14 & 10\\
+    \bottomrule
+    \end{tabular}\end{table}
+    
+    
+    
+    \begin{table}
+    \centering
+    \caption{Top 5 topics discussed over years (continued)}
+    \label{tab:top 5 topics all2}
+    \begin{tabular}{lrrrrr}
+    \toprule
+    Country &     Top 1 &     Top 2 &     Top 3 &     Top 4 &     Top 5 \\
+    \midrule
+    COG  & 1 & 17 & 6 & 14 & 3\\
+    COL  & 6 & 11 & 1 & 25 & 14\\
+    COM  & 14 & 1 & 10 & 4 & 24\\
+    CPV  & 1 & 14 & 6 & 5 & 3\\
+    CRI  & 11 & 6 & 1 & 12 & 14\\
+    CUB  & 1 & 20 & 6 & 8 & 21\\
+    CYP  & 1 & 23 & 4 & 2 & 13\\
+    CZE  & 2 & 18 & 3 & 12 & 13\\
+    DEU  & 3 & 18 & 13 & 1 & 2\\
+    DJI  & 1 & 4 & 17 & 15 & 7\\
+    DMA  & 7 & 16 & 12 & 4 & 1\\
+    DNK  & 2 & 3 & 18 & 1 & 4\\
+    DOM  & 14 & 1 & 6 & 11 & 7\\
+    DZA  & 1 & 27 & 10 & 5 & 4\\
+    ECU  & 11 & 6 & 1 & 14 & 12\\
+    EGY  & 15 & 1 & 10 & 4 & 25\\
+    ERI  & 1 & 8 & 17 & 28 & 7\\
+    ESP  & 1 & 14 & 3 & 11 & 22\\
+    EST  & 2 & 18 & 12 & 3 & 8\\
+    ETH  & 1 & 28 & 17 & 5 & 4\\
+     EU  & 2 & 8 & 6 & 15 & 18\\
+    FIN  & 2 & 3 & 1 & 19 & 18\\
+    FJI  & 12 & 16 & 1 & 22 & 7\\
+    FRA  & 1 & 3 & 6 & 13 & 14\\
+    FSM  & 16 & 12 & 22 & 7 & 3\\
+    GAB  & 1 & 14 & 3 & 17 & 5\\
+    GBR  & 1 & 8 & 12 & 4 & 2\\
+    GEO  & 2 & 8 & 18 & 6 & 13\\
+    GHA  & 1 & 4 & 7 & 5 & 12\\
+    GIN  & 1 & 14 & 17 & 3 & 5\\
+    GMB  & 4 & 7 & 1 & 5 & 12\\
+    GNB  & 14 & 1 & 3 & 5 & 17\\
+    GNQ  & 14 & 1 & 3 & 6 & 28\\
+    GRC  & 23 & 1 & 3 & 2 & 4\\
+    GRD  & 7 & 1 & 6 & 4 & 8\\
+    GTM  & 11 & 14 & 6 & 3 & 1\\
+    \bottomrule
+    \end{tabular}\end{table}
+    
+    
+    
+    \begin{table}
+    \centering
+    \caption{Top 5 topics discussed over years (continued)}
+    \label{tab:top 5 topics all3}
+    \begin{tabular}{lrrrrr}
+    \toprule
+    Country &     Top 1 &     Top 2 &     Top 3 &     Top 4 &     Top 5 \\
+    \midrule
+    GUY  & 1 & 7 & 4 & 3 & 16\\
+    HND  & 18 & 6 & 14 & 11 & 1\\
+    HRV  & 2 & 1 & 18 & 3 & 13\\
+    HTI  & 1 & 6 & 7 & 14 & 4\\
+    HUN  & 3 & 1 & 18 & 13 & 2\\
+    IDN  & 4 & 5 & 1 & 3 & 24\\
+    IND  & 1 & 4 & 8 & 5 & 3\\
+    IRL  & 22 & 1 & 2 & 4 & 8\\
+    IRN  & 10 & 8 & 1 & 4 & 18\\
+    IRQ  & 10 & 1 & 8 & 15 & 28\\
+    ISL  & 24 & 2 & 1 & 12 & 16\\
+    ISR  & 8 & 15 & 1 & 10 & 18\\
+    ITA  & 22 & 3 & 1 & 2 & 18\\
+    JAM  & 7 & 1 & 3 & 4 & 16\\
+    JOR  & 15 & 1 & 4 & 10 & 8\\
+    JPN  & 12 & 13 & 3 & 1 & 26\\
+    KAZ  & 2 & 13 & 3 & 18 & 12\\
+    KEN  & 1 & 17 & 4 & 7 & 3\\
+    KGZ  & 2 & 3 & 13 & 5 & 6\\
+    KHM  & 13 & 21 & 1 & 8 & 24\\
+    KIR  & 16 & 12 & 7 & 5 & 6\\
+    KNA  & 7 & 12 & 4 & 6 & 5\\
+    KOR  & 5 & 26 & 2 & 12 & 13\\
+    KWT  & 10 & 4 & 1 & 15 & 8\\
+    LAO  & 21 & 1 & 9 & 5 & 3\\
+    LBN  & 4 & 15 & 8 & 1 & 10\\
+    LBR  & 1 & 5 & 3 & 12 & 7\\
+    LBY  & 1 & 25 & 10 & 15 & 8\\
+    LCA  & 7 & 1 & 12 & 8 & 4\\
+    LIE  & 2 & 1 & 12 & 18 & 3\\
+    LKA  & 4 & 1 & 8 & 3 & 7\\
+    LSO  & 1 & 4 & 5 & 7 & 19\\
+    LTU  & 2 & 18 & 3 & 12 & 8\\
+    LUX  & 3 & 1 & 2 & 18 & 15\\
+    LVA  & 2 & 18 & 3 & 12 & 5\\
+    MAR  & 27 & 1 & 10 & 4 & 15\\
+    \bottomrule
+    \end{tabular}\end{table}
+    
+    
+    
+    \begin{table}
+    \centering
+    \caption{Top 5 topics discussed over years (continued)}
+    \label{tab:top 5 topics all4}
+    \begin{tabular}{lrrrrr}
+    \toprule
+    Country &     Top 1 &     Top 2 &     Top 3 &     Top 4 &     Top 5 \\
+    \midrule
+    MCO  & 2 & 6 & 3 & 7 & 12\\
+    MDA  & 2 & 3 & 18 & 13 & 5\\
+    MDG  & 1 & 3 & 6 & 24 & 4\\
+    MDV  & 7 & 4 & 1 & 24 & 5\\
+    MEX  & 11 & 6 & 1 & 3 & 2\\
+    MHL  & 16 & 12 & 22 & 7 & 2\\
+    MKD  & 2 & 23 & 3 & 1 & 6\\
+    MLI  & 1 & 17 & 3 & 6 & 4\\
+    MLT  & 28 & 1 & 2 & 3 & 12\\
+    MMR  & 3 & 4 & 1 & 5 & 13\\
+    MNE  & 2 & 5 & 3 & 28 & 28\\
+    MNG  & 13 & 3 & 5 & 2 & 9\\
+    MOZ  & 1 & 5 & 9 & 17 & 3\\
+    MRT  & 1 & 25 & 10 & 17 & 4\\
+    MUS  & 24 & 1 & 5 & 7 & 4\\
+    MWI  & 19 & 5 & 7 & 12 & 3\\
+    MYS  & 4 & 8 & 1 & 12 & 5\\
+    NAM  & 5 & 1 & 7 & 4 & 17\\
+    NER  & 1 & 17 & 3 & 14 & 6\\
+    NGA  & 1 & 5 & 4 & 3 & 7\\
+    NIC  & 20 & 6 & 1 & 11 & 14\\
+    NLD  & 2 & 1 & 3 & 19 & 18\\
+    NOR  & 2 & 3 & 1 & 4 & 19\\
+    NPL  & 5 & 4 & 1 & 19 & 13\\
+    NRU  & 16 & 12 & 7 & 2 & 28\\
+    NZL  & 16 & 1 & 12 & 13 & 3\\
+    OMN  & 10 & 4 & 15 & 1 & 24\\
+    PAK  & 8 & 4 & 1 & 13 & 3\\
+    PAN  & 11 & 6 & 1 & 20 & 2\\
+    PER  & 6 & 11 & 3 & 1 & 14\\
+    PHL  & 24 & 1 & 12 & 5 & 6\\
+    PLW  & 12 & 16 & 7 & 28 & 28\\
+    PNG  & 16 & 12 & 1 & 3 & 14\\
+    POL  & 11 & 3 & 13 & 1 & 2\\
+    PRK  & 26 & 13 & 1 & 12 & 21\\
+    PRT  & 1 & 23 & 3 & 2 & 14\\
+    \bottomrule
+    \end{tabular}\end{table}
+    
+    
+    
+    \begin{table}
+    \centering
+    \caption{Top 5 topics discussed over years (continued)}
+    \label{tab:top 5 topics all5}
+    \begin{tabular}{lrrrrr}
+    \toprule
+    Country &     Top 1 &     Top 2 &     Top 3 &     Top 4 &     Top 5 \\
+    \midrule
+    PRY  & 14 & 1 & 6 & 11 & 19\\
+    PSE  & 15 & 8 & 12 & 28 & 28\\
+    QAT  & 10 & 15 & 1 & 4 & 12\\
+    ROU  & 9 & 3 & 2 & 13 & 1\\
+    RUS  & 18 & 13 & 1 & 3 & 26\\
+    RWA  & 1 & 17 & 6 & 14 & 3\\
+    SAU  & 10 & 4 & 15 & 1 & 8\\
+    SDN  & 25 & 1 & 4 & 15 & 10\\
+    SEN  & 1 & 6 & 14 & 3 & 17\\
+    SGP  & 1 & 12 & 21 & 8 & 7\\
+    SLB  & 22 & 16 & 12 & 7 & 5\\
+    SLE  & 1 & 5 & 16 & 4 & 7\\
+    SLV  & 6 & 1 & 11 & 14 & 3\\
+    SMR  & 2 & 6 & 3 & 5 & 12\\
+    SOM  & 1 & 17 & 8 & 15 & 12\\
+    SRB  & 2 & 6 & 27 & 8 & 12\\
+    SSD  & 25 & 17 & 12 & 5 & 2\\
+    STP  & 1 & 14 & 6 & 5 & 12\\
+    SUR  & 11 & 7 & 3 & 1 & 4\\
+    SVK  & 2 & 3 & 18 & 13 & 12\\
+    SVN  & 2 & 3 & 1 & 12 & 18\\
+    SWE  & 2 & 3 & 1 & 18 & 19\\
+    SWZ  & 5 & 12 & 1 & 4 & 19\\
+    SYC  & 1 & 16 & 24 & 6 & 7\\
+    SYR  & 15 & 1 & 10 & 8 & 4\\
+    TCD  & 14 & 1 & 17 & 25 & 10\\
+    TGO  & 1 & 3 & 14 & 17 & 6\\
+    THA  & 7 & 4 & 21 & 1 & 5\\
+    TJK  & 3 & 2 & 13 & 4 & 5\\
+    TKM  & 13 & 2 & 3 & 28 & 28\\
+    TLS  & 23 & 6 & 12 & 5 & 8\\
+    TON  & 16 & 22 & 12 & 5 & 7\\
+    TTO  & 7 & 1 & 4 & 3 & 5\\
+    TUN  & 1 & 10 & 15 & 3 & 5\\
+    TUR  & 23 & 4 & 1 & 15 & 2\\
+    TUV  & 16 & 12 & 5 & 7 & 28\\
+    \bottomrule
+    \end{tabular}\end{table}
+    
+    
+    
+    \begin{table}
+    \centering
+    \caption{Top 5 topics discussed over years (continued)}
+    \label{tab:top 5 topics all6}
+    \begin{tabular}{lrrrrr}
+    \toprule
+    Country &     Top 1 &     Top 2 &     Top 3 &     Top 4 &     Top 5 \\
+    \midrule
+    TZA  & 1 & 17 & 5 & 4 & 7\\
+    UGA  & 1 & 12 & 17 & 4 & 5\\
+    UKR  & 18 & 13 & 3 & 9 & 1\\
+    URY  & 1 & 11 & 6 & 3 & 14\\
+    USA  & 8 & 12 & 1 & 18 & 6\\
+    UZB  & 2 & 3 & 13 & 4 & 8\\
+    VAT  & 6 & 2 & 12 & 1 & 8\\
+    VCT  & 7 & 1 & 8 & 4 & 6\\
+    VEN  & 6 & 1 & 20 & 11 & 8\\
+    VNM  & 21 & 1 & 5 & 13 & 3\\
+    VUT  & 16 & 1 & 12 & 8 & 7\\
+    WSM  & 16 & 1 & 12 & 4 & 7\\
+    YEM  & 15 & 10 & 1 & 4 & 9\\
+    ZAF  & 1 & 5 & 12 & 6 & 3\\
+    ZMB  & 1 & 5 & 4 & 9 & 7\\
+    ZWE  & 1 & 5 & 4 & 7 & 8\\
+    \bottomrule
+    \end{tabular}\end{table}

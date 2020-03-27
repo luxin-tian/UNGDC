@@ -12,12 +12,16 @@ Quantitative revelations of political agents’ preferences are of substantial i
 
 ## Documentation
 - [Online documentation](./paper.pdf)
-- This repository contains the final paper, an [intertopic distance map](./pylda_topic.html) for the results of LDA model visualization using pyLDAvis, and an index markdown file.
+- This folder contains
+  - the final paper
+  - the [intertopic distance map](./docs/pylda_topic.html) that visualizes the results of the LDA model
+  - the `index.md` file for the github page. 
 - This paper is prohibited from circulating. Viewing online is welcomed. 
 
-## Senmantic networks
+## Graphs: Senmantic networks
 - [Networks](./pic)
-- This repository contains all 49 networks constructed using LDA model and normalized mutual information score. 
+- This repository contains: 
+  - all 49 networks constructed using the LDA model and normalized mutual information score. 
 
 ## Reference
 - Baturo, A., Dasandi, N., Mikhaylov, S.J., 2017. Understanding state preferences with text as data: Introducing the ungeneral debate corpus. Research & Politics 4, 2053168017712821.

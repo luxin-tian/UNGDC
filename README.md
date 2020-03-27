@@ -4,7 +4,11 @@ Quantitative revelations of political agents’ preferences are of substantial i
 
 ## Reproducible codes and notebooks
 - [Notebooks](https://github.com/luxin-tian/UNGDC/tree/master/project)
-- This repository contains 4 notebooks in all: one for **Explanatory Data Analysis**, one for **Topic Modeling (LDA model) and Semantic Networks**, one for **Dynamic Topic Modeling**, and one for **BERT Text Generation**.
+- This repository contains 4 notebooks: 
+  - **Explanatory Data Analysis**
+  - **Topic Modeling (LDA model) and Semantic Networks**
+  - **Dynamic Topic Modeling**
+  - **BERT Text Generation**.
 
 ## Documentation
 - [Online documentation](./paper.pdf)
